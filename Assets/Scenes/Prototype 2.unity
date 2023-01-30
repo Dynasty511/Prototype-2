@@ -247,10 +247,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalPrefabs:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 4162198988575119298, guid: c8da70e60b8bc4880a51c5b08387afdb, type: 3}
+  - {fileID: 765736347171970828, guid: c5ca4cea564cc4555b5e28d1caa30128, type: 3}
+  - {fileID: 2821637733812803848, guid: fab4a3649c4444d7f94c514ac4d2fe68, type: 3}
+  - {fileID: 1455175402329646249, guid: fa9ce8b322bc940ee8e6093bfb8336cd, type: 3}
 --- !u!4 &172040748
 Transform:
   m_ObjectHideFlags: 0
@@ -690,6 +690,42 @@ MonoBehaviour:
   speed: 10
   xRange: 10
   projectilePrefab: {fileID: 7784591424195394281, guid: 241b92cf9ed1e4dd386794d0a76fc439, type: 3}
+--- !u!4 &1167001721 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 765736347172186400, guid: c5ca4cea564cc4555b5e28d1caa30128, type: 3}
+  m_PrefabInstance: {fileID: 765736347253254486}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1543877122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1543877123}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1543877123
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543877122}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1167001721}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0
